@@ -1,0 +1,163 @@
+.regNav {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ecedee;
+  font-family: poppins;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+@media screen and (max-width: 320px) {
+  .regNav {
+    /* background-color: white; */
+   
+    height: 100%;
+    
+    
+  }
+}
+.regNav1 {
+  /* width: 700px;
+
+
+  display: flex;
+
+  box-shadow: 0px 5px 7px -2px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  height: auto; */
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .regNav1 {
+ 
+    width: 300px;
+    margin: 30px;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .regNav1 {
+ 
+    width: 300px;
+   
+    height: 100vh;
+  }
+}
+.first_box {
+  height: 100%;
+
+  width: 350px;
+  height: 400px;
+  align-items: center;
+  background: linear-gradient(130deg, #4285f4 -50%, #ffffff 46%, #ffffff 100%);
+  border-right: 1px solid silver;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .first_box {
+    height: 100%;
+    
+    width: 320px;
+    height: 400px;
+    align-items: center;
+    background: linear-gradient(130deg, #4285f4 -50%, #ffffff 46%, #ffffff 100%);
+    border-right: 1px solid silver;
+    border-radius: 5px;
+  }
+  
+}
+
+
+.second_box {
+  height: 100%;
+  background: white;
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+
+}
+
+@media screen and (max-width: 600px) {
+  .second_box {
+    height: 100%;
+    
+    width: 320px;
+    height: 400px;
+    border-radius: 5px;
+  
+  }
+  
+}
+.allReg{
+ 
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reg{
+  height: 40px;
+  width: 270px;
+  
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.regInput{
+  width: 310px;
+ 
+  height: auto;
+}
+.sklcon{
+  width: 310px;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  height: 50px;
+
+}
+
+.lcon{
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+
+
+  
+}
+
+.reg1{
+ 
+  width: 270px;
+  height: 50px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  
+  display: flex;
+  justify-content: center;
+}
+.allReg1{
+  
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}

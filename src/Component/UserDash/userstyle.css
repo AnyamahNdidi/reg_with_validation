@@ -1,0 +1,24 @@
+.user_dash{
+  height:auto;
+  width: 300px;
+  box-shadow: 0px 5px 8px 5px #888888;
+  background:"red";
+  border-radius: 15px;
+}
+.proinfo{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding-top: 20px;
+ 
+}
+
+.nep{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  position: relative;
+}
